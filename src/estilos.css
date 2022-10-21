@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+#root {
+    display: flex;
+    flex-direction: column;
+    font-family:'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+
+
+#nav{
+    background-color: rgb(185, 220, 250);
+    height: 80px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(23, 59, 138, 0.5);
+    padding: 0.5rem 1rem;
+
+}
+
+a{
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+a:hover{
+    color:#31a2e4;
+}
+
+#shopcart{
+    display: flex;
+    cursor: pointer;
+    font-weight: 0.3rem;
+}
+
+#cart_items{
+    font-size: 12px;
+}
+.container{
+    height: 80vh;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+#foot{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px;
+    background-color:rgb(185, 220, 250);
+    box-shadow: 0 0 15px rgba(23, 59, 138, 0.5);
+}
