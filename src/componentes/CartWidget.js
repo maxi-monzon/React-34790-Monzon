@@ -5,7 +5,7 @@ import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
 const CartWidget = () =>{
     return(
         
-                <a href="#" id="shopcart">
+                <a id="shopcart">
                 <LocalGroceryStoreIcon/>
                 <div id="cart_items">0</div>
                 
@@ -14,4 +14,4 @@ const CartWidget = () =>{
     )
 }
 
-export default CartWidget;
+export default CartWidget; 

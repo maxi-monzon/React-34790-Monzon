@@ -1,17 +1,22 @@
 import React from "react"
 import NavBar from "./componentes/NavBar"
-import Footer from "./componentes/Footer"
+import ItemListContainer from "./componentes/ItemListContainer";
+import Footer from "./componentes/Footer";
+import { BrowserRouter } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 import "./estilos.css";
-import ItemCartContainer from "./componentes/ItemCartContainer";
 
 
 function App() {
 
     return (
         <>
+        <BrowserRouter>
             <NavBar/>
-            <ItemCartContainer />
+            <ItemListContainer />
             <Footer />
+            <ToastContainer/>
+        </BrowserRouter>
         </>
     )
 }
