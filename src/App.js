@@ -1,7 +1,7 @@
 import React from "react"
 import NavBar from "./componentes/NavBar"
-import ItemListContainer from "./componentes/ItemListContainer";
 import Footer from "./componentes/Footer";
+import Main from "./componentes/Main"
 import { BrowserRouter } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "./estilos.css";
@@ -13,7 +13,7 @@ function App() {
         <>
         <BrowserRouter>
             <NavBar/>
-            <ItemListContainer />
+            <Main/>
             <Footer />
             <ToastContainer/>
         </BrowserRouter>
